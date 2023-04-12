@@ -1,0 +1,12 @@
+.lost-pets-paragraph {
+  font-size: 12px;
+  @media (max-width: 800px) {
+    font-size: 8px;
+  }
+}
+.found-pets-paragraph {
+  font-size: 12px;
+  @media (max-width: 800px) {
+    font-size: 6px;
+  }
+}

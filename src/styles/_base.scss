@@ -1,0 +1,96 @@
+// Define any common css which we can use throughout the app
+html,
+body,
+#root {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 12px;
+}
+
+a {
+  &:hover {
+    cursor: pointer;
+  }
+}
+.MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+.MuiIconButton-root:hover {
+  background-color: none;
+}
+button:focus {
+  outline: none;
+}
+.MuiOutlinedInput-adornedEnd {
+  padding-right: 0px;
+  height: 35px;
+}
+.MuiOutlinedInput-input {
+  outline: none;
+  border: none;
+}
+.MuiInputBase-input:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+.heading-text {
+  font-size: 18px;
+}
+.paragraph-text {
+  font-size: 10px;
+  align-items: center;
+}
+.profile-heading {
+  font-size: 18px;
+  align-items: center;
+}
+.css-1pgnhl3 {
+  background: none !important;
+}
+.css-1pgnhl3:hover {
+  background: rgb(238, 242, 245) !important;
+}
+
+.ropo-input,
+.ropo-text-area,
+.ropo-text-area:focus,
+.ropo-select-input {
+  border-color: gray !important;
+  box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+
+.ropo-picker {
+  .MuiInputBase-root {
+    border-radius: 0 !important;
+    border-color: gray !important;
+  }
+
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: gray;
+    border-width: 1px;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: gray;
+  }
+
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: gray;
+  }
+}
+
+@media (min-width: 800px) {
+  .heading-text {
+    font-size: 35px;
+  }
+  .paragraph-text {
+    font-size: 19px;
+  }
+  .profile-heading {
+    font-size: 24px;
+  }
+}

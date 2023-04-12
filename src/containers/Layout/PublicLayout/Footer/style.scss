@@ -1,0 +1,27 @@
+.text-2xs {
+  font-size: 7px;
+  @media (min-width: 800px) {
+    font-size: 6px;
+  }
+}
+
+.desktop-mobile-menu-text-size {
+  font-size: 6px;
+
+  @media (min-width: 800px) {
+    font-size: 9.5px;
+  }
+}
+
+.desktop-mobile-logo {
+  width: 60%;
+  @media (min-width: 300px) {
+    justify-content: center;
+    width: 350px;
+  }
+}
+.footer {
+  @media (max-width: 400px) {
+    flex-wrap: wrap;
+  }
+}

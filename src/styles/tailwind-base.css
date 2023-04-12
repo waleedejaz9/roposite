@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply font-bold text-5xl;
+}
+
+a:hover {
+  @apply cursor-pointer;
+}
+
+input[type="checkbox"] {
+  @apply cursor-pointer;
+}
+h2{
+  @apply font-normal text-4xl
+}
